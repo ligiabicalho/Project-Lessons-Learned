@@ -9,8 +9,9 @@ body {
   left: 0px;
   display: block;
   padding-left: 50px;
+  padding-right: 50px;
 }
 
-#minha_foto #aprendizagem {
-  display: inline;
+#minha_foto {
+  padding-top: 100px;
 }
