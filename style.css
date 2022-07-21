@@ -3,7 +3,14 @@ body{
 }
 
 #cabecalho{
+    background-color: rgba(128, 255, 213, 0.707);
     position: fixed;
     top: 0px;
+    left: 0px;
+    display:block;
+    padding-left: 50px;
 }
 
+#minha_foto #aprendizagem{
+    display:inline;
+}
