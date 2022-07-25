@@ -5,8 +5,8 @@ body {
 #cabecalho {
   background-color: rgba(128, 255, 213, 0.707);
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   display: block;
   padding-left: 50px;
   padding-right: 50px;
