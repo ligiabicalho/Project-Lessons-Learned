@@ -1,17 +1,55 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  border: 2px solid rgba(128, 255, 213, 0.707);
+  margin: 10px;
+}
+
+section {
+  margin: 10px;
 }
 
 #cabecalho {
   background-color: rgba(128, 255, 213, 0.707);
+  color: #424242;
   position: fixed;
   top: 0;
   left: 0;
-  display: block;
   padding-left: 50px;
   padding-right: 50px;
+  width: 100%;
 }
 
 #minha_foto {
   padding-top: 100px;
+}
+
+#lista1, #lista2 {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-size: small;
+}
+
+.lado-esquerdo {
+  width: 70%;
+  float: left;
+  margin-right: 20px; 
+} 
+
+article {
+  line-height: 1.5rem;
+}
+
+#apresentacao {
+  display: inline-block;
+}
+
+#rodape {
+  color: #424242;
+  font-size: small;
+  text-align: center;
 }

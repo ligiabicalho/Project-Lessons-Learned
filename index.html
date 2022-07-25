@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>[Lígia Bicalho] Projeto Lessons Learned</title>
 </head>
 <body>
@@ -14,43 +17,44 @@
         <a href="https://ligiabicalho.github.io/" target="_blank">Portifólio GitHub</a>
     </header>
     <main>
-      <section>
         <img id="minha_foto" src="foto-perfil-2021.png" width="200px" alt="Foto de perfil da Lígia. Ela usa óculos, cabelos cacheados logo abaixo dos ombros e blusa branca.">
-        <article id="aprendizagem">
-            <p>Me chamo Lígia Bicalho, estou na Turma 25 de Desenvolvimento Web da Trybe (Julho/2022). Estamos na terceira semana de aula, finalizando o bloco 3 e este é meu primeiro projeto. Estou em transição de carreira e cheguei com pouco conhecimento de programação. O ritmo de estudo é bem acelerado, mas a Trybe oferece organização e suporte para que o aprendizado seja consolidado. Há também atividades para desenvolvermos softskills, habilidades que sempre valem a pena serem aperfeiçoadas. Estou com boas expectativas para curso! Vamo que vamo!</p>
-        </article>
-        <aside>Sou natural de Belo Horizonte/MG, me formei em Ciências Biológicas pela UFRJ (2017) e trabalhei com o ensino de ciências e biologia em pré-vestibulares, coordenação de equipe de monitoria e mais recente estava me dedicando à educação ambiental e agroecológica, temas que sou apaixonada.
-        </aside>
-        <div id="lista1">
-            <p>Lições aprendidas:</p>
-            <ol id="licoes_aprendidas">
-                <li>Unix e bash</li>
-                <li>Internet e redes</li>
-                <li>Git e GitHub</li>
-                <li>Introdução ao HTML</li>
-                <li>Introdução ao CSS</li>
-                <li>Introdução ao JavaScrip</li>
-                <li>Gestão de tempo</li>
-                <li>PDI - Plano de Desenvolvimento Individual</li>
-                <li>Comunicação acertiva e feedbacks</li>
-                <li>Boas práticas no Slack</li>
-            </ol>
-        </div>
-        <div id="lista2">
-            <p>Lições a aprender:</p>
-            <ul id="licoes_a_aprender">
-                <li>HTML avançado</li>
-                <li>CSS avançado</li>
-                <li>JavaScript avançado</li>
-                <li>React</li>
-                <li>Metodologias Ageis</li>
-                <li>JavaScrip</li>
-                <li>Testes</li>
-                <li>SQL</li>
-                <li>Node.js</li>
-                <li>POO e SOLID</li>
-            </ul>
-        </div>
+        <section id="apresentacao">
+            <article id="aprendizagem" class="lado-esquerdo">
+                <p>Me chamo Lígia Bicalho, estou na Turma 25 de Desenvolvimento Web da Trybe (Julho/2022). Estamos na terceira semana de aula, finalizando o bloco 3 e este é meu primeiro projeto. Estou em transição de carreira e cheguei com pouco conhecimento de programação. O ritmo de estudo é bem acelerado, mas a Trybe oferece organização e suporte para que o aprendizado seja consolidado. Há também atividades para desenvolvermos softskills, habilidades que sempre valem a pena serem aperfeiçoadas. Estou com boas expectativas para curso! Vamo que vamo!</p>
+            </article>
+            <aside class="lado-direito">Sou natural de Belo Horizonte/MG, me formei em Ciências Biológicas pela UFRJ (2017) e trabalhei com o ensino de ciências e biologia em pré-vestibulares, coordenação de equipe de monitoria e mais recente estava me dedicando à educação ambiental e agroecológica, temas que sou apaixonada.</aside>
+        </section>
+        <section>
+            <div id="lista1">
+                <p>Lições aprendidas:</p>
+                <ol id="licoes_aprendidas">
+                    <li>Unix e bash</li>
+                    <li>Internet e redes</li>
+                    <li>Git e GitHub</li>
+                    <li>Introdução ao HTML</li>
+                    <li>Introdução ao CSS</li>
+                    <li>Introdução ao JavaScrip</li>
+                    <li>Gestão de tempo</li>
+                    <li>PDI - Plano de Desenvolvimento Individual</li>
+                    <li>Comunicação acertiva e feedbacks</li>
+                    <li>Boas práticas no Slack</li>
+                </ol>
+            </div>
+            <div id="lista2">
+                <p>Lições a aprender:</p>
+                <ul id="licoes_a_aprender">
+                    <li>HTML avançado</li>
+                    <li>CSS avançado</li>
+                    <li>JavaScript avançado</li>
+                    <li>React</li>
+                    <li>Metodologias Ageis</li>
+                    <li>JavaScrip</li>
+                    <li>Testes</li>
+                    <li>SQL</li>
+                    <li>Node.js</li>
+                    <li>POO e SOLID</li>
+                </ul>
+            </div>
             <table>
                 <caption>Tabela</caption>
                 <tr>
@@ -69,7 +73,7 @@
                     <td>Linha 2.3</td>
                 </tr>
             </table>
-      </section>
+        </section>
     </main>
     <footer id="rodape">
         <p>Se quiser acompanhar meu desenvolvimento enquanto estudante de Desenvolvimento web, acesse meu <a href="https://www.linkedin.com/in/ligiabicalho/" target="_blank">LinkedIn</a> ou meu <a href="https://ligiabicalho.github.io/" target="_blank">portfólio no GitHub</a>.<br>
